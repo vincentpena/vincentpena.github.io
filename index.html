@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    
+
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+
+<meta name="author" content="Vincent Peña">
+
+<meta property="og:url" content="http://projects.aljazeera.com/2015/09/ona-demo" />
+<meta property="og:site_name" content="Your site name" />
+<meta property="og:title" content="Big Ten vs. SEC" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="" />
+<meta property="og:image:width" content="1800" />
+<meta property="og:image:height" content="1200" />
+<meta property="og:description" content="" />
+
+<meta property="article:publisher" content="https://www.facebook.com/YOURFACEBOOKPAGE" />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@YOURTWITTERHANDLE">
+<meta name="twitter:title" content="Big Ten vs. SEC">
+<meta name="twitter:description" content="The Southeastern Conference has long been the dominant force in college football, winning eight of the last 10 college football championships. But the last few years has seen a shift in power toward the Big Ten conference.">
+<meta name="twitter:creator" content="">
+<meta name="twitter:image:src" content=""> <!-- at least 280px x 150px for Twitter (image must be < 1MB) -->
+<meta name="twitter:domain" content="http://yourtwittercomain.com">
+<meta name="twitter:app:name:iphone" content="">
+<meta name="twitter:app:name:ipad" content="">
+<meta name="twitter:app:name:googleplay" content="">
+<meta name="twitter:app:url:iphone" content="">
+<meta name="twitter:app:url:ipad" content="">
+<meta name="twitter:app:url:googleplay" content="">
+<meta name="twitter:app:id:iphone" content="">
+<meta name="twitter:app:id:ipad" content="">
+<meta name="twitter:app:id:googleplay" content="">
+
+
+    
+
+
+<title>Big Ten vs. SEC | JOUR407/807 Data Visualization</title>
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    
+
+    <link rel="stylesheet" type="text/css" href="css/style.min.css" />
+
+    
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    
+    
+
+<script type="text/javascript" src="js/app-header.min.js"></script>
+<script>
+BigreadAnalytics.init({
+  'GATrackerID': null,
+  'ChartbeatUID': null,
+  'ChartbeatDomain': null
+});
+</script>
+  
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    
+    
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+              <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand page-scroll" href="#page-top">
+              <i class="fa fa-newspaper-o"></i>  <span class="light"> </span> JOUR407/807 Data Visualization
+          </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+          <ul class="nav navbar-nav">
+              <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+              <li class="hidden">
+                  <a href="#page-top"></a>
+              </li>
+              
+          </ul>
+          <ul class="nav navbar-nav social-buttons">
+             <li><span data-type="twitter" class="bigread-social-btn"><span class="fa fa-twitter"></span></span></li>
+             <li><span data-type="facebook" class="bigread-social-btn"><span class="fa fa-facebook"></span></span></li>
+          </ul>          
+      </div>
+      <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+    
+
+    
+    
+
+
+
+<div class="panel0-container">
+    <div class="panel0">
+        <img src="img/backgroundinverted.jpg">
+    </div>
+</div>
+<header class="intro" >
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1 class="brand-heading">Big Ten vs. SEC</h1>
+                    <p class="intro-text">The Southeastern Conference has long been the dominant force in college football, winning eight of the last 10 college football championships. But the last few years has seen a shift in power toward the Big Ten conference.</p>
+                    <a href="#content-container" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+<div id="content-wrapper">
+
+<div id="content-container">
+
+<div class="row bylines-container bylines-top">
+  <div class="col-xs-10 col-xs-offset-1">
+      
+      <div class="byline">By  Vincent Peña  </div>
+      
+  </div>
+</div>
+
+
+
+
+
+    
+    
+        
+<div class="row" >
+    <div class="col-sm-7 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+        <p>The SEC has long been the dominant force in college football, winning eight of the last 10 college football championships. But the last few years has seen a shift in power toward the Big Ten conference, which is beginning to dominate the college football world, albeit for much less money.</p><p></p><p>Combined, these two conferences combine for nearly half of the College Football Playoff committee’s ranking (12 of 25), including five of the top seven (four of which hail from the Big Ten). Not surprisingly, these teams also make up a significant portion of the top 25 highest-paid head coaches in college football.</p>
+    </div>
+    
+</div>
+
+    
+
+    
+    
+        
+<div class="row">
+  <div class="col-xs-10 col-xs-offset-1">
+    
+  
+    
+      <div class="full-image full" id="image1">
+        <img class="ajmint-unveil" src="img/icons/loading.png" data-src="img/top25.png" /> 
+        <noscript>
+          <img src="img/top25.png" />
+        </noscript> 
+      </div>
+    
+  
+  
+
+  </div>
+</div>
+                  
+    
+
+    
+    
+        
+<div class="row" >
+    <div class="col-sm-7 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+        <p>Alabama is the supreme ruler of the land nowadays, which makes sense given the upwards of $13 million the school pays for its staff, of which around $6.5 million goes to head coach Nick Saban. The Crimson Tide have won four of the last six national championships, so it may come as a surprise that the coach who has reached that kind of success isn’t the highest paid coach in college football. </p><p></p><p>Looking at the SEC, where schools will spend an average of $8 million for their football staffs, it isn’t hard to see the correlation here: the conference that has traditionally spent the most money on football is also the most successful over the last decade or so. </p><p></p><p>Since the start of the CFP era two years ago, the power is shifting in college football toward the Midwest, where Big Ten schools are establishing themselves as the class of Division I football. This is also where the man who gets paid more than Saban, Michigan’s Jim Harbaugh, resides.</p><p></p><p>Harbaugh is the highest paid coach in total, getting a whopping $9.1 million in 2016. Right behind him in the conference, and third overall, is Ohio State’s Urban Meyer, who brings in just over $6 million annually. </p><p></p><p>After that though, the coaches in the Big Ten don’t make nearly as much on average that SEC coaches do. Indeed, the average SEC coach gets paid almost a half a million more per season than a Big Ten coach.</p>
+    </div>
+    
+</div>
+
+    
+
+    
+    
+        
+<div class="row">
+  <div class="col-xs-10 col-xs-offset-1">
+    
+  
+    
+      <div class="full-image half left" id="image2">
+        <img class="ajmint-unveil" src="img/icons/loading.png" data-src="img/sec.png" /> 
+        <noscript>
+          <img src="img/sec.png" />
+        </noscript> 
+      </div>
+    
+  
+    
+      <div class="full-image half right" id="image3">
+        <img class="ajmint-unveil" src="img/icons/loading.png" data-src="img/bigten.png" /> 
+        <noscript>
+          <img src="img/bigten.png" />
+        </noscript> 
+      </div>
+    
+  
+  
+
+  </div>
+</div>
+                  
+    
+
+    
+    
+        
+<div class="row" >
+    <div class="col-sm-7 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+        <p>One can see the wide discrepancy between the highest and lowest paid in each conference, and generally the ones paid the highest have the best overall track record of success. For example, Harbaugh’s, Saban’s and Meyer’s team are 10-2, 12-0 and 11-1 respectively, so it’d be hard to argue they don’t deserve all that money (not to mention all three may very well end up in the playoffs this year). </p><p></p><p>But to see which conference performs better in relation to the amount of money spent, the following graphs show how many Big Ten schools are getting more than their money’s worth in 2016, while SEC schools are paying a lot of money to be relatively mediocre.</p>
+    </div>
+    
+</div>
+
+    
+
+    
+    
+        
+<div class="row">
+  <div class="col-xs-10 col-xs-offset-1">
+    
+  
+    
+      <div class="full-image full" id="image4">
+        <img class="ajmint-unveil" src="img/icons/loading.png" data-src="img/bigtenflow.png" /> 
+        <noscript>
+          <img src="img/bigtenflow.png" />
+        </noscript> 
+      </div>
+    
+  
+  
+
+  </div>
+</div>
+                  
+    
+
+    
+    
+        
+<div class="row" >
+    <div class="col-sm-7 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+        <p>The Big Ten has two teams, Wisconsin and Penn State, who pay their head coaches less than the SEC average, but yet are both top-seven teams in the latest rankings. Wisconsin’s head coach, Paul Chryst, is merely the eighth highest-paid coach in the conference, but his team is regarded as the sixth best in all the land. Because of this, the correlation between winning percentage and annual salary isn’t very strong. Several Big Ten coaches have outperformed their pay grade, at least compared to how much other coaches are paid across the board.</p>
+    </div>
+    
+</div>
+
+    
+
+    
+    
+        
+<div class="row">
+  <div class="col-xs-10 col-xs-offset-1">
+    
+  
+    
+      <div class="full-image full" id="image5">
+        <img class="ajmint-unveil" src="img/icons/loading.png" data-src="img/secflow.png" /> 
+        <noscript>
+          <img src="img/secflow.png" />
+        </noscript> 
+      </div>
+    
+  
+  
+
+  </div>
+</div>
+                  
+    
+
+    
+    
+        
+<div class="row" >
+    <div class="col-sm-7 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+        <p>Conversely, outside of Alabama, there is a lot of parity in the SEC this season. SEC teams struggled against non-conference opponents (with at least two losses against FCS teams), and then subsequently beat up on each other during conference play. But despite the dip in prominence this year, the SEC follows a progression pattern whereby the highest paid coaches usually have more successful teams. There are obviously exceptions, but overall the more you pay, the more you get in the South. </p>
+    </div>
+    
+</div>
+
+    
+
+
+
+
+
+<div class="row bylines-container bylines-bottom">
+  <div class="col-xs-10 col-xs-offset-1">
+      
+  </div>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+<script>
+var BIGREAD_GLOBAL = {
+	"twitterDescription": "Tweet text here for story 1",
+	"twitterSiteHandle": "@YOURTWITTERHANDLE",
+	"ogAppId": "",
+	"twitterDomain": "http://yourtwittercomain.com"
+}
+</script>
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    <script type="text/javascript" src="js/bigread.min.js"></script>
+</body>
+
+</html>
